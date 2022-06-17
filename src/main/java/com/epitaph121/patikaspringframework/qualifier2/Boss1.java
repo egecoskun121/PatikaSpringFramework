@@ -1,6 +1,5 @@
-package com.epitaph121.patikaspringframework.qualifier;
+package com.epitaph121.patikaspringframework.qualifier2;
 
-import javax.enterprise.inject.Alternative;
 import javax.enterprise.inject.Default;
 
 @Default

@@ -1,6 +1,4 @@
-package com.epitaph121.patikaspringframework.qualifier;
-
-import javax.enterprise.inject.Alternative;
+package com.epitaph121.patikaspringframework.qualifier2;
 
 @QualifierMultiple
 public class Boss2 implements BossInterface {

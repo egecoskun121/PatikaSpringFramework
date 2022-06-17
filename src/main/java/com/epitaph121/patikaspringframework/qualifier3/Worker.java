@@ -1,15 +1,15 @@
-package com.epitaph121.patikaspringframework.qualifier;
+package com.epitaph121.patikaspringframework.qualifier3;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-@Named(value="qualifierCdi")
+@Named(value="qualifier3Cdi")
 @ApplicationScoped
 public class Worker {
 
     @Inject
-    @QualifierMultiple
+    @QualifierMultiple2(Options.SECOND)
     private BossInterface bossInterface;
 
 

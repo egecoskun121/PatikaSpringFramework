@@ -1,4 +1,4 @@
-package com.epitaph121.patikaspringframework.qualifier;
+package com.epitaph121.patikaspringframework.qualifier2;
 
 
 import javax.inject.Qualifier;
