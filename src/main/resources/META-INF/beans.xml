@@ -5,8 +5,14 @@
                       http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd"
        bean-discovery-mode="all">
 
-    <alternatives>
 
+    <!-- alternative -->
+    <alternatives>
         <class>com.epitaph121.patikaspringframework.alternative.Boss2</class>
     </alternatives>
+
+    <!-- intercepter -->
+    <interceptors>
+        <class>com.epitaph121.patikaspringframework.aop.intercepter.InterceptorJob</class>
+    </interceptors>
 </beans>
